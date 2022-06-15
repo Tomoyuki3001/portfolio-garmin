@@ -1,0 +1,89 @@
+body {
+  margin: 0%;
+  background-color: #ffffff;
+  font-family: "Merriweather", serif;
+}
+
+.header-part {
+  height: 19vh;
+  padding: 0% 2.5%;
+}
+.header-part .header-part-upper {
+  height: 63%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-part .header-part-upper .header-logo {
+  height: 5vh;
+  margin-right: 18%;
+}
+.header-part .header-part-upper .header-support {
+  font-size: 0.8rem;
+  margin-right: 1%;
+}
+.header-part .header-part-upper .header-icons {
+  margin-left: 2%;
+}
+.header-part .header-part-nav {
+  height: 37%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #dcdcdc;
+}
+.header-part .header-part-nav .header-nav-span {
+  font-size: 0.8rem;
+  margin: 0% 1%;
+}
+
+.free-ground {
+  height: 90vh;
+  background-color: #000000;
+  color: #ffffff;
+}
+.free-ground .free-ground-shipping {
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+.free-ground .free-ground-imagesText {
+  height: 80%;
+}
+.free-ground .free-ground-imagesText .free-ground-text-box {
+  text-align: center;
+}
+.free-ground .free-ground-imagesText .free-ground-text-box .free-ground-first-sentence {
+  margin-top: 4%;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.free-ground .free-ground-imagesText .free-ground-text-box .free-ground-second-sentence {
+  margin-top: 2%;
+}
+.free-ground .free-ground-imagesText .free-ground-text-box .free-ground-button {
+  height: 5%;
+  margin-top: 3%;
+  font-size: 0.8rem;
+  border: 1px solid #ffffff;
+  padding: 1% 2%;
+}
+.free-ground .free-ground-featured {
+  height: 10%;
+  padding-bottom: 1%;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.free-ground .free-ground-triangle-box {
+  height: 5%;
+  background-color: #ffffff;
+}
+.free-ground .free-ground-triangle-box .free-ground-triangle {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px red;
+}/*# sourceMappingURL=index.css.map */
